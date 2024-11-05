@@ -80,7 +80,7 @@ EDA involved exploring the sales data to answer key questions, such as:
 
   ### Data Analysis
 
-  For the rest of the code, check the [sqlquery](https://github.com/Victoria-Uwegba/LITA_SALES_ANALYSIS/blob/main/SQLQuery%20Sales%20Analysis.sql). file
+  For the rest of the code, check the [sqlquery](https://github.com/Victoria-Uwegba/LITA-PROJECT-2/blob/main/SQLQuery%20Customer%20Subscription%20Analysis.sql). file
 
   ```SQL
   SELECT * FROM [dbo].[Lita customer analysis]
