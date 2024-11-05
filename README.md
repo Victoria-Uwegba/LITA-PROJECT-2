@@ -83,11 +83,11 @@ EDA involved exploring the sales data to answer key questions, such as:
   For the rest of the code, check the [sqlquery](https://github.com/Victoria-Uwegba/LITA_SALES_ANALYSIS/blob/main/SQLQuery%20Sales%20Analysis.sql). file
 
   ```SQL
-  SELECT * FROM [dbo].[LITA sales analysis ]
-  
-  SELECT Product, SUM(Total_Sales) AS TotalSales
-  FROM [dbo].[LITA sales analysis ]
-  GROUP BY Product;
+  SELECT * FROM [dbo].[Lita customer analysis]
+  -----retrieve the total number of customers from each region.----
+  SELECT Region, COUNT(CUSTOMERID) AS TotalNumbers
+  FROM [dbo].[Lita customer analysis]
+  GROUP BY Region
 
 
 ### Data Visualization:
