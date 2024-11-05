@@ -13,11 +13,11 @@
 
 ### Project Overview
 
-This data analysis project focuses on delivering insights into a retail store's sales performance for 2023 and 2024. Through a detailed examination of the sales data, the project aims to uncover trends, highlight top-selling products, assess regional performance, and analyze monthly sales patterns. The insights gained will support data-driven recommendations and comprehensively understand the company’s performance.
+This project involves analyzing customer data for a subscription service to identify segments and trends. Your goal is to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals.
 
 ### Data Sources
 
-Customers Subscription Data: The primary dataset used for this analysis is the "customer_data.csv" file, containing detailed information about different types of subscriptions purchased by a set of customers provided by LITA
+Customers Subscription Data: The primary dataset used for this analysis is the "Lita customer_data.csv" file, containing detailed information about different types of subscriptions purchased by a set of customers provided by LITA
 
 ### Data Collected
 
@@ -53,31 +53,27 @@ In this phase of data preparation, the following actions were performed:
 2. Removing of duplicates
 3. Creating new entries from an existing column
 
-   ``` 
-   
-
 ![image](https://github.com/user-attachments/assets/2b969c83-3a63-43a2-a39e-84f26987ac78)
-
-
 
 ### Exploratory Data Analysis
 EDA involved exploring the sales data to answer key questions, such as:
-- retrieve the total sales for each product category.
 
-- find the number of sales transactions in each region.
+- retrieve the total number of customers from each region.
 
-- find the highest-selling product by total sales value.
+- find the most popular subscription type by the number of customers.
 
-- calculate total revenue per product.
+- find customers who canceled their subscription within 6 months.
 
-- calculate monthly sales totals for the current year.
+- calculate the average subscription duration for all customers.
 
-- find the top 5 customers by total purchase amount.
+- find customers with subscriptions longer than 12 months.
 
-- calculate the percentage of total sales contributed by each region.
+- calculate total revenue by subscription type.
 
-- identify products with no sales in the last quarter.
+- find the top 3 regions by subscription cancellations.
 
+- find the total number of active and canceled subscriptions.
+  
   ### Data Analysis
 
   For the rest of the code, check the [sqlquery](https://github.com/Victoria-Uwegba/LITA-PROJECT-2/blob/main/SQLQuery%20Customer%20Subscription%20Analysis.sql). file
@@ -94,4 +90,3 @@ EDA involved exploring the sales data to answer key questions, such as:
 
 The data was queried using SQL Server Management Studio and then imported into Microsoft Power BI to build a dashboard, providing Superstores with valuable insights into their business performance.
 
-### Recommendation
